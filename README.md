@@ -8,27 +8,25 @@ To write a program to implement the the Logistic Regression Model to Predict the
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
+```
 1.Import the standard libraries.
-
 2.Upload the dataset and check for any null or duplicated values using .isnull() and .duplicated() function respectively.
-
 3.Import LabelEncoder and encode the dataset.
-
 4.Import LogisticRegression from sklearn and apply the model on the dataset.
-
 5.Predict the values of array.
-
 6.Calculate the accuracy, confusion and classification report by importing the required modules from sklearn.
-
-7.Apply new unknown values 
+7.Apply new unknown values
+```
 
 ## Program:
 ```
-
+/*
 Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
-Developed by: Hariharan M 
-RegisterNumber: 212221220015
-
+Developed by: Vishranthi A
+RegisterNumber:  212221230124
+*/
+```
+```
 import pandas as pd
 data = pd.read_csv("Placement_Data.csv")
 data.head()
@@ -72,14 +70,47 @@ lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
 ```
 
 ## Output:
-![image](https://user-images.githubusercontent.com/117006918/198871982-dd6b2e3b-53b7-41b8-85d5-d3e93af60f63.png)
-![image](https://user-images.githubusercontent.com/117006918/198871993-c28b5ce9-53e0-4d61-8c53-d35f44a07414.png)
-![image](https://user-images.githubusercontent.com/117006918/198872013-9c5cc608-6009-4c05-a03d-915f2f4672bb.png)
-![image](https://user-images.githubusercontent.com/117006918/198872020-a0d01afb-4c38-477b-9d77-dc539d35d0e0.png)
-![image](https://user-images.githubusercontent.com/117006918/198872033-18a3015e-d010-4c88-8fb3-3a8532377351.png)
-![image](https://user-images.githubusercontent.com/117006918/198872041-85930c8b-5311-47d3-8031-58ac03269912.png)
+![1](https://user-images.githubusercontent.com/93427278/200621130-7cbde7df-d1d2-449c-aafa-d5c404639720.png)
 
 
+
+![2](https://user-images.githubusercontent.com/93427278/200621153-a98cc3b5-dd84-4317-bd9f-2d37a1a2ce55.png)
+
+
+
+![3](https://user-images.githubusercontent.com/93427278/200621216-0705583c-3a84-428d-80ea-271772851342.png)
+
+
+![4](https://user-images.githubusercontent.com/93427278/200621219-4da55088-4b6d-4317-965c-b61c08727062.png)
+
+
+![5](https://user-images.githubusercontent.com/93427278/200621264-dd3790d1-7b1f-4313-a5fb-a45d21e2b60a.png)
+
+
+
+![6](https://user-images.githubusercontent.com/93427278/200621314-54c9d8ea-c343-4841-aab8-80f93a9f4033.png)
+
+
+![7](https://user-images.githubusercontent.com/93427278/200621361-90a5c368-a427-4c22-87a7-07d3e5731724.png)
+
+
+![8](https://user-images.githubusercontent.com/93427278/200621406-cf0825af-95db-4e67-bdbc-80c871752e9b.png)
+
+
+
+![9](https://user-images.githubusercontent.com/93427278/200621441-3ba11f56-6c9e-43a6-9aff-91d02230ce5b.png)
+
+
+![10](https://user-images.githubusercontent.com/93427278/200621467-0b672fc5-3a3a-46a7-9da6-deb729dc56c6.png)
+
+
+![11](https://user-images.githubusercontent.com/93427278/200621501-e7c247ef-b790-4b58-a32a-4810d716111b.png)
+
+
+![12](https://user-images.githubusercontent.com/93427278/200621542-1a828fb3-693e-45c2-81ca-b3692d303c74.png)
+
+
+![13](https://user-images.githubusercontent.com/93427278/200621569-a50c2ad2-0852-4607-90c2-f2d8c429f03b.png)
 
 ## Result:
 Thus the program to implement the the Logistic Regression Model to Predict the Placement Status of Student is written and verified using python programming.
