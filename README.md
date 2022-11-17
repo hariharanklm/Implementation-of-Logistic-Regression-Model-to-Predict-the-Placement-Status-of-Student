@@ -80,25 +80,35 @@ lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
 ```
 ## Output:
 ### Original Data:
-![output](output1.png)
+<img width="655" alt="output1" src="https://user-images.githubusercontent.com/117884666/202349242-0eae951d-3d88-4646-af77-7d7401b8a246.png">
+
 ### After removing:
-![output](output2.png)
+<img width="655" alt="output2" src="https://user-images.githubusercontent.com/117884666/202349281-5cdf3222-d236-48cf-9464-2d00de90333c.png">
+
 ### Null Data:
-![output](output3.png)
+<img width="347" alt="output3" src="https://user-images.githubusercontent.com/117884666/202349327-d3140b03-9ab3-4bbb-8825-280809042668.png">
+
 ### Label Encoder:
-![output](output4.png)
+<img width="648" alt="output4" src="https://user-images.githubusercontent.com/117884666/202349360-d1fad749-cad4-45f6-b452-b639488d00f1.png">
+
 ### X:
-![output](output5.png)
+<img width="648" alt="output5" src="https://user-images.githubusercontent.com/117884666/202349397-13ddd034-640d-4a0d-9b80-d40e829498eb.png">
+
 ### Y:
-![output](output6.png)
+<img width="648" alt="output6" src="https://user-images.githubusercontent.com/117884666/202349451-6b400bf1-2442-42f9-b626-2515a6890628.png">
+
 ### Y_prediction:
-![output](output7.png)
+<img width="648" alt="output7" src="https://user-images.githubusercontent.com/117884666/202349482-eeebf89b-8723-49ab-b2ee-f2799032d998.png">
+
 ### Accuracy:
-![output](outpit8.png)
+<img width="648" alt="outpit8" src="https://user-images.githubusercontent.com/117884666/202349521-b5dda1e4-24f4-450b-8d25-cab697917455.png">
+
 ### Cofusion:
-![output](output9.png)
+<img width="460" alt="output9" src="https://user-images.githubusercontent.com/117884666/202349566-cfb1debe-5ad0-4d63-9058-37fb909276c6.png">
+
 ### Classification:
-![output](output10.png)
+<img width="648" alt="output10" src="https://user-images.githubusercontent.com/117884666/202349583-7473e1af-27fc-4171-9e07-e84d48626af6.png">
+
 
 
 ## Result:
