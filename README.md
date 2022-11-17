@@ -20,8 +20,8 @@ To write a program to implement the the Logistic Regression Model to Predict the
 ```
 /*
 Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
-Developed by : Gunaseelan G
-RegisterNumber : 212221230031
+Developed by : Hariharan M
+RegisterNumber : 212221220015
 */
 
 import pandas as pd
@@ -81,41 +81,40 @@ lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
 
 ## Output:
 ### Original data(first five columns):
-![](output1.png)
+![output1](https://user-images.githubusercontent.com/117884666/202350920-91230236-3501-467d-a41a-3cc56f8bc7a1.png)
 
 ### Data after dropping unwanted columns(first five):
-![](output2.png)
+![output2](https://user-images.githubusercontent.com/117884666/202350947-5c93f20c-5cdb-4eac-a543-351d97258c19.png)
 
 ### Checking the presence of null values:
-![](output3.png)
+![output3](https://user-images.githubusercontent.com/117884666/202351002-33e0d443-1277-4b10-ae6a-e7372ed4a0e9.png)
 
 ### Checking the presence of duplicated values:
-![](output4.jpg)
+![output4](https://user-images.githubusercontent.com/117884666/202351028-6b348fdb-e144-40e8-881f-07ad35a35f08.jpg)
 
 ### Data after Encoding:
-![](output5.jpg)
+![output5](https://user-images.githubusercontent.com/117884666/202351090-6e2a568c-c90d-45cf-b55c-cd6691101ac3.jpg)
 
 ### X Data:
-![](output6.jpg)
+![output6](https://user-images.githubusercontent.com/117884666/202351217-16bcf798-c9a1-4fcf-a9c2-960c6dbad871.jpg)
 
 ### Y Data:
-![](output7.jpg)
+![output7](https://user-images.githubusercontent.com/117884666/202351248-b6334fe4-ba38-4909-ae14-3ad70470d546.jpg)
 
 ### Predicted Values:
-![](output8.jpg)
+![output8](https://user-images.githubusercontent.com/117884666/202351308-9de792ca-0695-46c6-a56a-86773a733cca.jpg)
 
 ### Accuracy Score:
-![](output9.jpg)
+![output9](https://user-images.githubusercontent.com/117884666/202351381-aa411c93-73db-40b8-9b44-e34448807350.jpg)
 
 ### Confusion Matrix:
-![](output10.jpg)
+![output10](https://user-images.githubusercontent.com/117884666/202351428-575fd0a8-26e5-4685-80e3-d83a6edaf05c.jpg)
 
 ### Classification Report:
-![](output11.jpg)
+![output11](https://user-images.githubusercontent.com/117884666/202351456-986e4c85-a62f-4ada-8304-29767391f8e8.jpg)
 
 ### Predicting output from Regression Model:
-![](output12.jpg)
-
+![output12](https://user-images.githubusercontent.com/117884666/202351558-c079fd82-35f6-4206-b9f3-21b5afa6d07a.jpg)
 
 ## Result:
 Thus the program to implement the the Logistic Regression Model to Predict the Placement Status of Student is written and verified using python programming.
